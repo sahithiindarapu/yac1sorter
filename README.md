@@ -2,6 +2,8 @@
 
 An unofficial, lightweight Firefox extension that adds filtering, sorting, and infinite auto-loading to **Capital One Offers** (`capitaloneoffers.com`).
 
+![See Demo](./demo.gif)
+
 > **Disclaimer:** This project is an independent, unofficial browser extension and is not affiliated with, endorsed by, or sponsored by Capital One.
 
 ## Features
