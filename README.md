@@ -22,4 +22,8 @@ An unofficial, lightweight Firefox extension that adds filtering, sorting, and i
 ### Option 1: Load Temporarily (For Development / Quick Use)
 1. Clone or download this repository:
    ```bash
-   git clone [https://github.com/sahithiindarapu/yac1sorter.git](https://github.com/sahithiindarapu/yac1sorter.git)
+   git clone https://github.com/sahithiindarapu/yac1sorter.git
+   ```
+2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`.
+3. Click `Load Temporary Add-on...` and select the `manifest.json` file from your project folder.
+4. Visit https://capitaloneoffers.com and log in.
