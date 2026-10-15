@@ -17,13 +17,25 @@ An unofficial, lightweight Firefox extension that adds filtering, sorting, and i
 * **Auto-Load All Offers (`⏬ Load All Offers`):** Automatically clicks *"View More Offers"* until your entire offer feed is loaded on a single page.
 * **100% Local & Private:** Collects zero user data, makes no external network requests, and runs strictly on `capitaloneoffers.com`.
 
-## Installation (Firefox)
+## Installation
 
-### Option 1: Load Temporarily (For Development / Quick Use)
+### Firefox
+
 1. Clone or download this repository:
    ```bash
    git clone https://github.com/sahithiindarapu/yac1sorter.git
    ```
 2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`.
-3. Click `Load Temporary Add-on...` and select the `manifest.json` file from your project folder.
+3. Click `Load Temporary Add-on...` and select the `manifest.json` file from `firefox` folder.
 4. Visit https://capitaloneoffers.com and log in.
+
+### Google Chrome
+
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/sahithiindarapu/yac1sorter.git
+   ```
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable **Developer mode** using the toggle in the top-right corner.
+4. Click **Load unpacked** in the top-left corner and select `chrome` folder.
+5. Visit https://capitaloneoffers.com and log in.
