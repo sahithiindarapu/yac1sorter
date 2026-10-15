@@ -19,23 +19,17 @@ An unofficial, lightweight Firefox extension that adds filtering, sorting, and i
 
 ## Installation
 
+* Download this repository - https://github.com/sahithiindarapu/yac1sorter/archive/refs/tags/2026.10.14.zip
+
 ### Firefox
 
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/sahithiindarapu/yac1sorter.git
-   ```
-2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`.
-3. Click `Load Temporary Add-on...` and select the `manifest.json` file from `firefox` folder.
-4. Visit https://capitaloneoffers.com and log in.
+* Open Firefox and navigate to `about:debugging#/runtime/this-firefox` (enter this in navigation bar).
+* Click `Load Temporary Add-on...` and select the `manifest.json` file from `firefox` folder.
 
 ### Google Chrome
 
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/sahithiindarapu/yac1sorter.git
-   ```
-2. Open Chrome and navigate to `chrome://extensions/`.
-3. Enable **Developer mode** using the toggle in the top-right corner.
-4. Click **Load unpacked** in the top-left corner and select `chrome` folder.
-5. Visit https://capitaloneoffers.com and log in.
+* Open Chrome and navigate to `chrome://extensions/` (enter this in navigation bar).
+* Enable **Developer mode** using the toggle in the top-right corner.
+* Click **Load unpacked** in the top-left corner and select `chrome` folder.
+
+And then visit https://capitaloneoffers.com and log in.
