@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "YAC1Sorter - Offer Sorter & Filter",
+  "short_name": "YAC1Sorter",
+  "version": "1.0.0",
+  "description": "Unofficial helper to filter, sort, and auto-load deals on Capital One Offers.",
+  "author": "sahithiindarapu",
+  "homepage_url": "https://github.com/sahithiindarapu/yac1sorter",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.capitaloneoffers.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yac1sorter@sahithiindarapu.github.io",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
