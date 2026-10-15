@@ -19,7 +19,7 @@ An unofficial, lightweight Firefox extension that adds filtering, sorting, and i
 
 ## Installation
 
-* Download this repository - https://github.com/sahithiindarapu/yac1sorter/archive/refs/tags/2026.10.14.zip
+* Download this repository - https://github.com/sahithiindarapu/yac1sorter/archive/refs/tags/2026.10.14.zip and extract the zip file.
 
 ### Firefox
 
